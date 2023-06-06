@@ -138,6 +138,8 @@
   function createWriteStream (filename, options, size, mitmUrl = null) {
     if (mitmUrl) {
         saveStream.setMitm(mitmUrl);
+    } else {
+        saveStream.setMitm(saveStream.defaultMitm)
     }
     let opts = {
       size: null,
