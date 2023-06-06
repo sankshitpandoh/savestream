@@ -1,6 +1,6 @@
 {
   "name": "savestreams",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SaveStream: Effortlessly save and store streams in your web browser. Optimal memory management for large data, seamless integration, and secure reliability. Upgrade your web apps today and unlock the power of efficient stream saving.",
   "main": "index.js",
   "scripts": {
